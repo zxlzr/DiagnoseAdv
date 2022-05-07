@@ -1,5 +1,5 @@
 # Analysis
-> Codes for paper "***Normal vs. Adversarial: Salience-based Analysis of Adversarial Samples for Relation Extraction***"
+> Codes for the IJCKG2021 paper ["***Normal vs. Adversarial: Salience-based Analysis of Adversarial Samples for Relation Extraction***"](https://arxiv.org/pdf/2104.00312.pdf)
 ## Requirements
 - Python=3.6
 - Install opennre==0.1 [here](https://github.com/thunlp/OpenNRE)
@@ -186,4 +186,34 @@ dataset/
     ├── rel2id.json
     ├── train.txt
     └── val.txt
+```
+
+## How to Cite
+
+If you use or extend our work, please cite the following paper:
+
+```
+@inproceedings{DBLP:conf/jist/LiCBXDZTCC21,
+  author    = {Luoqiu Li and
+               Xiang Chen and
+               Zhen Bi and
+               Xin Xie and
+               Shumin Deng and
+               Ningyu Zhang and
+               Chuanqi Tan and
+               Mosha Chen and
+               Huajun Chen},
+  title     = {Normal vs. Adversarial: Salience-based Analysis of Adversarial Samples
+               for Relation Extraction},
+  booktitle = {IJCKG'21: The 10th International Joint Conference on Knowledge Graphs,
+               Virtual Event, Thailand, December 6 - 8, 2021},
+  pages     = {115--120},
+  publisher = {{ACM}},
+  year      = {2021},
+  url       = {https://doi.org/10.1145/3502223.3502237},
+  doi       = {10.1145/3502223.3502237},
+  timestamp = {Thu, 27 Jan 2022 16:44:51 +0100},
+  biburl    = {https://dblp.org/rec/conf/jist/LiCBXDZTCC21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 ```
